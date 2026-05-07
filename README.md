@@ -21,7 +21,7 @@ pip install -r requirements.txt
 python -m low_rank_rnn.train
 ```
 
-&rarr; We see that the neurons activity lies on a 1D-manifold:
+&rarr; We see that the neurons activity lies on a 1D-manifold (here a straight line):
 
 ### Go
 ![go](./low_rank_rnn/figures/go.gif)
