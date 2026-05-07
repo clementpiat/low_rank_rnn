@@ -13,7 +13,16 @@
 
 ## Go - NoGo
 
+I generated synthetic stimuli data for simulating a Go-NoGo task and trained a rank-two RNN on it.
+
 ```shell
 pip install -r requirements.txt
 python -m low_rank_rnn.train
 ```
+
+&rarr; We see that the neurons activity lies on a 1D-manifold:
+
+### Go
+![go](./low_rank_rnn/figures/go.gif)
+### NoGo
+![nogo](./low_rank_rnn/figures/nogo.gif)
