@@ -10,6 +10,7 @@
 
 </div>
 
+No vibe-code. No auto-complete.
 
 ## Go - NoGo
 
