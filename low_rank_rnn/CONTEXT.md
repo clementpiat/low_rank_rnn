@@ -24,7 +24,7 @@ $$x(t+1) = J\phi(x(t)) + Iu(t)$$
 
 $$J = \sum_{i=1}^{R} m_i n_i^\top$$
 
-Then $J$ has only $(2*R*N)$ parameters
+Then $J$ has only $2*R*N$ parameters
 
 In Linking connectivity, dynamics and computations in
 low-rank recurrent neural networks (https://arxiv.org/pdf/1711.09672), they solve the Go-NoGo task with rank-two RNN, and the number of units they use spans from 1_000 to 7_500, so I will use:
