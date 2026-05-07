@@ -1,0 +1,7 @@
+numpy
+torch
+matplotlib
+pillow
+# clean code
+ruff
+ty
